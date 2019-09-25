@@ -1,0 +1,11 @@
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab3/stack/obj/Debug/netcoreapp2.2/stack.csprojAssemblyReference.cache
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab3/stack/obj/Debug/netcoreapp2.2/stack.csproj.CoreCompileInputs.cache
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab3/stack/obj/Debug/netcoreapp2.2/stack.AssemblyInfoInputs.cache
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab3/stack/obj/Debug/netcoreapp2.2/stack.AssemblyInfo.cs
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab3/stack/bin/Debug/netcoreapp2.2/stack.deps.json
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab3/stack/bin/Debug/netcoreapp2.2/stack.runtimeconfig.json
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab3/stack/bin/Debug/netcoreapp2.2/stack.runtimeconfig.dev.json
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab3/stack/bin/Debug/netcoreapp2.2/stack.dll
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab3/stack/bin/Debug/netcoreapp2.2/stack.pdb
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab3/stack/obj/Debug/netcoreapp2.2/stack.dll
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab3/stack/obj/Debug/netcoreapp2.2/stack.pdb
