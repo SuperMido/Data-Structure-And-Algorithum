@@ -1,0 +1,11 @@
+/home/mido/IT Greenwich/Data structure and Algorithum/Laps/lab2/bin/Debug/netcoreapp2.2/lab2.deps.json
+/home/mido/IT Greenwich/Data structure and Algorithum/Laps/lab2/bin/Debug/netcoreapp2.2/lab2.runtimeconfig.json
+/home/mido/IT Greenwich/Data structure and Algorithum/Laps/lab2/bin/Debug/netcoreapp2.2/lab2.runtimeconfig.dev.json
+/home/mido/IT Greenwich/Data structure and Algorithum/Laps/lab2/bin/Debug/netcoreapp2.2/lab2.dll
+/home/mido/IT Greenwich/Data structure and Algorithum/Laps/lab2/bin/Debug/netcoreapp2.2/lab2.pdb
+/home/mido/IT Greenwich/Data structure and Algorithum/Laps/lab2/obj/Debug/netcoreapp2.2/lab2.csprojAssemblyReference.cache
+/home/mido/IT Greenwich/Data structure and Algorithum/Laps/lab2/obj/Debug/netcoreapp2.2/lab2.csproj.CoreCompileInputs.cache
+/home/mido/IT Greenwich/Data structure and Algorithum/Laps/lab2/obj/Debug/netcoreapp2.2/lab2.AssemblyInfoInputs.cache
+/home/mido/IT Greenwich/Data structure and Algorithum/Laps/lab2/obj/Debug/netcoreapp2.2/lab2.AssemblyInfo.cs
+/home/mido/IT Greenwich/Data structure and Algorithum/Laps/lab2/obj/Debug/netcoreapp2.2/lab2.dll
+/home/mido/IT Greenwich/Data structure and Algorithum/Laps/lab2/obj/Debug/netcoreapp2.2/lab2.pdb
