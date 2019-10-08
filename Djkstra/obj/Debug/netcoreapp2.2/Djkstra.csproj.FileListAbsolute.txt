@@ -1,0 +1,11 @@
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/Djkstra/bin/Debug/netcoreapp2.2/Djkstra.deps.json
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/Djkstra/bin/Debug/netcoreapp2.2/Djkstra.runtimeconfig.json
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/Djkstra/bin/Debug/netcoreapp2.2/Djkstra.runtimeconfig.dev.json
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/Djkstra/bin/Debug/netcoreapp2.2/Djkstra.dll
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/Djkstra/bin/Debug/netcoreapp2.2/Djkstra.pdb
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/Djkstra/obj/Debug/netcoreapp2.2/Djkstra.csprojAssemblyReference.cache
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/Djkstra/obj/Debug/netcoreapp2.2/Djkstra.csproj.CoreCompileInputs.cache
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/Djkstra/obj/Debug/netcoreapp2.2/Djkstra.AssemblyInfoInputs.cache
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/Djkstra/obj/Debug/netcoreapp2.2/Djkstra.AssemblyInfo.cs
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/Djkstra/obj/Debug/netcoreapp2.2/Djkstra.dll
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/Djkstra/obj/Debug/netcoreapp2.2/Djkstra.pdb

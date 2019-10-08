@@ -1,0 +1,11 @@
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/bin/Debug/netcoreapp2.2/lab4.deps.json
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/bin/Debug/netcoreapp2.2/lab4.runtimeconfig.json
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/bin/Debug/netcoreapp2.2/lab4.runtimeconfig.dev.json
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/bin/Debug/netcoreapp2.2/lab4.dll
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/bin/Debug/netcoreapp2.2/lab4.pdb
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/obj/Debug/netcoreapp2.2/lab4.csprojAssemblyReference.cache
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/obj/Debug/netcoreapp2.2/lab4.csproj.CoreCompileInputs.cache
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/obj/Debug/netcoreapp2.2/lab4.AssemblyInfoInputs.cache
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/obj/Debug/netcoreapp2.2/lab4.AssemblyInfo.cs
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/obj/Debug/netcoreapp2.2/lab4.dll
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/obj/Debug/netcoreapp2.2/lab4.pdb

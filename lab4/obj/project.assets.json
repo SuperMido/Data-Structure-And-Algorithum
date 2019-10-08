@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab1/lab1.csproj",
-      "projectName": "lab1",
-      "projectPath": "/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab1/lab1.csproj",
+      "projectUniqueName": "/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/lab4.csproj",
+      "projectName": "lab4",
+      "projectPath": "/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/lab4.csproj",
       "packagesPath": "/home/mido/.nuget/packages/",
-      "outputPath": "/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab1/obj/",
+      "outputPath": "/home/mido/IT Greenwich/Data-Structure-And-Algorithum/lab4/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

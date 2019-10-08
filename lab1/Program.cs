@@ -17,7 +17,11 @@ namespace lab1
             Console.WriteLine("8. Size of array");
             Console.WriteLine("9. Check empty");
             Console.WriteLine("10. Check full");
-            Console.WriteLine("11. Exit");
+            Console.WriteLine("11. Selection Short");
+            Console.WriteLine("12. Buble Short");
+            Console.WriteLine("13. Insert Short");
+            Console.WriteLine("14. Quick Short");
+            Console.WriteLine("15. Exit");
             Console.WriteLine("===================================");
         }
 
@@ -78,7 +82,7 @@ namespace lab1
         }
         public void Display(int[] arr, int n)
         {
-           Console.WriteLine();
+            Console.WriteLine();
             Console.Write("Your array: ");
             for (int i=0; i<n;i++)
             {
@@ -86,6 +90,113 @@ namespace lab1
                 Console.Write(" ");
             }
             Console.WriteLine();
+        }
+
+        public void SelectionShort(int[] arr,int n)
+        {
+            int temp, min;
+            for (int i = 0; i < n - 1; i++) 
+            {
+                min = i;
+                for (int j = i + 1; j < n; j++) 
+                {
+                    if (arr[j] < arr[min]) 
+                    {
+                    min = j;
+                    }
+                }
+            temp = arr[min];
+            arr[min] = arr[i];
+            arr[i] = temp;
+            }
+            Console.WriteLine();
+            Console.Write("Sorted array is: "); 
+            for (int i = 0; i < n; i++) 
+            {
+                Console.Write(arr[i] + " ");
+            }
+            Console.WriteLine("\n");
+        }
+
+        public void BubleShort(int[] arr,int n)
+        {
+            int temp;
+            for (int i =0;i<n-1;i++)
+            {
+                for (int j=i+1;j<n;j++)
+                {
+                    if (arr[i]>arr[j])
+                        {
+                            temp=arr[i];
+                            arr[i] = arr[j];
+                            arr[j] = temp;
+                        }
+                }    
+            }
+            for (int i = 0; i < n; i++) 
+            {
+                Console.Write(arr[i] + " ");
+            }
+            Console.WriteLine("\n");
+        }
+
+        public void InsertShort(int[] arr, int n)
+        {
+              
+            for (int i = 1; i < n; i++) 
+            {
+                int temp = arr[i];
+                
+                for (int j = i - 1; j >= 0; j-- ) 
+                {
+                    if (temp < arr[j]) 
+                        {
+                            arr[j + 1] = arr[j];
+                            arr[j] = temp;
+                        }
+                else break;
+                }
+            }
+            Console.Write("\nSorted Array is: ");   
+            for (int i = 0; i < n; i++) 
+            {
+                Console.Write(arr[i] + " ");
+            }
+            Console.WriteLine("\n");
+        }
+
+        public void QuickSort(int[] arr, int start, int end)
+        {
+            int i;
+            if (start < end)
+            {
+                i = Partition(arr, start, end);
+        
+                QuickSort(arr, start, i - 1);
+                QuickSort(arr, i + 1, end);
+            }
+        }
+        private int Partition(int[] arr, int start, int end)
+        {
+            int temp;
+            int p = arr[end];
+            int i = start - 1;
+        
+            for (int j = start; j <= end - 1; j++)
+            {
+                if (arr[j] <= p)
+                {
+                    i++;
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        
+            temp = arr[i + 1];
+            arr[i + 1] = arr[end];
+            arr[end] = temp;
+            return i + 1;
         }
         static void Main(string[] args)
         {
@@ -95,15 +206,15 @@ namespace lab1
             int[] arr = new int[100];
             int n=0;
 
-            Console.Write("Input number of number in array: ");
+            Console.Write("Input how many number in array: ");
             n = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Enter your command: ");
             int pickOption = Convert.ToInt32(Console.ReadLine());
             
-            while (pickOption != 11)
+            while (pickOption != 15)
             {
-                if (pickOption <1 || pickOption >11)
+                if (pickOption <1 || pickOption >15)
                 {
                     Console.WriteLine("Error");
                 }else
@@ -180,11 +291,26 @@ namespace lab1
                             break;
 
                         case 11:
+                            myProgram.SelectionShort(arr,n);
+                            break;
+                        case 13:
+                            myProgram.InsertShort(arr,n);
+                            break;
+                        case 14:
+                            myProgram.QuickSort(arr,0,n-1);
+                            Console.Write("\nSorted Array is: "); 
+                            for (int k = 0; k < n; k++) 
+                            {
+                                Console.Write(arr[k] + " ");
+                            }
+                            Console.WriteLine("\n");
+                            break;
+                        case 15:
                             break;
                         default:
                             break;
                     }
-                    if (pickOption == 11) break;
+                    if (pickOption == 15) break;
                 }
                 Console.Write("Enter your command: ");
                 pickOption = Convert.ToInt32(Console.ReadLine());    
