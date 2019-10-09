@@ -105,9 +105,13 @@ namespace lab1
                     min = j;
                     }
                 }
-            temp = arr[min];
-            arr[min] = arr[i];
-            arr[i] = temp;
+                if (min != i)
+                {
+                    temp = arr[min];
+                    arr[min] = arr[i];
+                    arr[i] = temp;
+                }
+            
             }
             Console.WriteLine();
             Console.Write("Sorted array is: "); 
@@ -118,7 +122,7 @@ namespace lab1
             Console.WriteLine("\n");
         }
 
-        public void BubleShort(int[] arr,int n)
+        public void BubbleShort(int[] arr,int n)
         {
             int temp;
             for (int i =0;i<n-1;i++)
@@ -133,6 +137,7 @@ namespace lab1
                         }
                 }    
             }
+            Console.Write("Sorted array is: ");
             for (int i = 0; i < n; i++) 
             {
                 Console.Write(arr[i] + " ");
@@ -203,11 +208,18 @@ namespace lab1
             Program myProgram = new Program();
             myProgram.showMenu();    
 
-            int[] arr = new int[100];
+            int[] arr = new int[10000000];
             int n=0;
+            Random myRandom = new Random(); //create random
 
             Console.Write("Input how many number in array: ");
             n = Convert.ToInt32(Console.ReadLine());
+
+            // Auto create random n item into Array from 0 to n
+            for (int i=0;i<n;i++)
+            {
+                arr[i] = myRandom.Next(0,n);
+            }
 
             Console.Write("Enter your command: ");
             int pickOption = Convert.ToInt32(Console.ReadLine());
@@ -291,7 +303,19 @@ namespace lab1
                             break;
 
                         case 11:
+                            var watchSS = System.Diagnostics.Stopwatch.StartNew();
+                            watchSS.Start();
                             myProgram.SelectionShort(arr,n);
+                            watchSS.Stop();
+                            Console.WriteLine($"Execution Time for Selection Short: {watchSS.ElapsedMilliseconds} ms");
+                            break;
+
+                        case 12:
+                            var watchBS = System.Diagnostics.Stopwatch.StartNew();
+                            watchBS.Start();
+                            myProgram.BubbleShort(arr,n);
+                            watchBS.Stop();
+                            Console.WriteLine($"Execution Time for Bubble Short: {watchBS.ElapsedMilliseconds} ms");
                             break;
                         case 13:
                             myProgram.InsertShort(arr,n);

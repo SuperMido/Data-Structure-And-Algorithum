@@ -1,0 +1,11 @@
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/BellManFord/obj/Debug/netcoreapp2.2/BellManFord.csprojAssemblyReference.cache
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/BellManFord/obj/Debug/netcoreapp2.2/BellManFord.csproj.CoreCompileInputs.cache
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/BellManFord/obj/Debug/netcoreapp2.2/BellManFord.AssemblyInfoInputs.cache
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/BellManFord/obj/Debug/netcoreapp2.2/BellManFord.AssemblyInfo.cs
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/BellManFord/bin/Debug/netcoreapp2.2/BellManFord.deps.json
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/BellManFord/bin/Debug/netcoreapp2.2/BellManFord.runtimeconfig.json
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/BellManFord/bin/Debug/netcoreapp2.2/BellManFord.runtimeconfig.dev.json
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/BellManFord/bin/Debug/netcoreapp2.2/BellManFord.dll
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/BellManFord/bin/Debug/netcoreapp2.2/BellManFord.pdb
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/BellManFord/obj/Debug/netcoreapp2.2/BellManFord.dll
+/home/mido/IT Greenwich/Data-Structure-And-Algorithum/BellManFord/obj/Debug/netcoreapp2.2/BellManFord.pdb
